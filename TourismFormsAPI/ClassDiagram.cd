@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TourismFormsAPI.Controllers.AnswerController" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AnswerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Controllers.AuthController" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>Controllers\AuthController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Controllers.CriteriaController" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CriteriaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Controllers.FillMethodController" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAAA=</HashCode>
+      <FileName>Controllers\FillMethodController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Controllers.FormController" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Controllers\FormController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Controllers.MeasureController" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAEAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MeasureController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Controllers.MunicipalityController" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Controllers\MunicipalityController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Controllers.SurveyController" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAEAIAAAAAAAAQAAEAAEAAAgAAAAAAAIQ=</HashCode>
+      <FileName>Controllers\SurveyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Answer" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAgAAAAAAAAAAAAAAAAEAACASAQAAAA=</HashCode>
+      <FileName>Models\Answer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.City" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAABAAAAg=</HashCode>
+      <FileName>Models\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Criteria" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAACAAAAAEAAAAAAEAAAA=</HashCode>
+      <FileName>Models\Criteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.FillMethod" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\FillMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Form" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAEAAAAAAAAAAAAAAAAQAAgAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Measure" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Measure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Municipality" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAGAAAAgCAAAAAAAAAAAAQACAAAAAACAAAQABAAAAA=</HashCode>
+      <FileName>Models\Municipality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Question" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACQEAAAAAAAEAAAAAgAAQQAAACBAAAQAAAAAEEAAA=</HashCode>
+      <FileName>Models\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Region" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.Survey" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABIAAABAJIAAAAAAAgACgAAAAAQAAAAEEEAAg=</HashCode>
+      <FileName>Models\Survey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Models.TourismContext" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAUAAAQAQAAAAAAAAAAAAEBBAAAAEQAAAABAAAIA=</HashCode>
+      <FileName>Models\TourismContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.AnsweDTO" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\AnsweDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.CityDTO" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\CityDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.CriteriaDTO" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\CriteriaDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.FillMethodDTO" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\FillMethodDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.FormDTO" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\FormDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.MeasureDTO" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\MeasureDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.MunicipalityDTO" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\MunicipalityDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.QuestionDTO" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\QuestionDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.RegionDTO" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\RegionDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.SurveyDTO" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\SurveyDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.AnswerRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\AnswerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.AuthRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\AuthRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.CriteriaRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\CriteriaRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.FillMethodRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\FillMethodRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.FormRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBAAAAAAAAAAAAAAAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\FormRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.MeasureRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAEAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>Repositories\MeasureRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.MunicipalityRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAAAAAAAAAAAEAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\MunicipalityRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.Repositories.SurveyRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAFAAAAAAAAAAQAAEAAEAAAgAAAAAAAIQ=</HashCode>
+      <FileName>Repositories\SurveyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.Requests.AnswerPost" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAQAAAA=</HashCode>
+      <FileName>ModelsDTO\Requests\AnswerPost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.Requests.FormPost" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\Requests\FormPost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.Requests.MunicipalityPost" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAAAAAAQACAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\Requests\MunicipalityPost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.Requests.MunicipalityUpdate" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAAAAAAQACAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>ModelsDTO\Requests\MunicipalityUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.Requests.SurveyPost" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAJAAAAAAAAgACgAAAAAAAAAAEAAAAg=</HashCode>
+      <FileName>ModelsDTO\Requests\SurveyPost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TourismFormsAPI.ModelsDTO.Requests.SurveyPut" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABIAAAAAJAAAAAAAAgACgAAAAAAAAAAEAEAAg=</HashCode>
+      <FileName>ModelsDTO\Requests\SurveyPut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TourismFormsAPI.Interfaces.IAnswerRepository" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAnswerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.IAuthRepository" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAuthRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.ICriteriaRepository" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICriteriaRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.IFillMethodRepository" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFillMethodRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.IFormRepository" Collapsed="true">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Interfaces\IFormRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.IMeasureRepository" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAgAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IMeasureRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.IMunicipalityRepository" Collapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Interfaces\IMunicipalityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.IQuestionRepository" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Interfaces\IQuestionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.IRegionRepository" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Interfaces\IRegionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TourismFormsAPI.Interfaces.ISurveyRepository" Collapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAEAAAAAAAAAAQAAEAAEAAAgAAAAAAAIQ=</HashCode>
+      <FileName>Interfaces\ISurveyRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
